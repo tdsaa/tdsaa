@@ -892,7 +892,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1624,4 +1626,15 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/* Custom css files */
+#hero .carousel-item {
+  background-position: center!important; 
+  background-repeat: no-repeat!important; 
+  background-size: cover!important;
+}
+
+iframe {
+  width:100%;
 }
